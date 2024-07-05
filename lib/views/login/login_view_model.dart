@@ -11,9 +11,6 @@ class LoginViewModel extends BaseViewModel{
 
    }
   }
-
-
-
   String? validateEmail(String? value) {
     if(value == null || value.isEmpty){
       return "Please enter an email";
